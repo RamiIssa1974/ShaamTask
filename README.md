@@ -1,11 +1,54 @@
 # Task Management Application – שָׁע"ם רמה ג'
 
-This project was developed as part of the **Software Developer Level 3 (שע"ם)** practical test.  
-The system demonstrates both **Client-Side** and **Server-Side** development using modern frameworks and best practices.
+מ# ShamTask – מבחן מפתח תוכנה רמה ג' (שע"ם)
+
+מערכת לניהול משימות פשוטה שנבנתה במסגרת מבחן מפתח תוכנה רמה ג׳.  
+הפרויקט כולל צד שרת מבוסס ‎ASP.NET Core‎ וצד לקוח מבוסס ‎Angular‎.
 
 ---
 
-## 📘 General Description
+## 🚀 צד שרת (Backend)
+
+- פותח ב־**ASP.NET Core 8.0**
+- הנתונים נשמרים בקובץ ‎`Data/tasks.json`‎
+- כולל טיפול מלא ב־CORS וב־HTTPS
+- נקודות קצה עיקריות:
+
+| Method | Endpoint       | Description          |
+|--------|----------------|----------------------|
+| GET    | `/tasks`       | קבלת כל המשימות     |
+| POST   | `/tasks`       | הוספת משימה חדשה    |
+| PUT    | `/tasks/{id}`  | עדכון משימה קיימת   |
+| DELETE | `/tasks/{id}`  | מחיקת משימה          |
+
+####  הפעלה מקומית
+```bash
+dotnet restore
+dotnet run
+׳
+
+---
+שרת ה־API נגיש גם אונליין:
+https://shaam.creativehandsco.com/swagger
+
+צד לקוח (Frontend)
+
+פותח ב־Angular עם Reactive Forms
+
+עיצוב באמצעות Bootstrap 5
+
+מתקשר ל־API דרך קריאות ‎HTTPClient‎
+
+כולל הוספה, עריכה, מחיקה ורשימת משימות
+
+🔗 הפעלה אונליין
+
+האפליקציה זמינה לצפייה ולבדיקה:
+ https://stackblitz.com/edit/stackblitz-starters-izzidrst
+
+
+
+## General Description
 
 The system allows managing a list of tasks (To-Do list).  
 Users can:
@@ -23,7 +66,7 @@ Each task contains:
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 ### Client Side
 - **Angular 20**
@@ -39,7 +82,7 @@ Each task contains:
 
 ---
 
-## 🧩 System Architecture (Overview)
+## System Architecture (Overview)
 
 - **Client (Angular):**  
   Structured by modules, components, and services.  
@@ -54,7 +97,7 @@ Each task contains:
 
 ---
 
-## 📄 Author
+## Author
 
 **Name:** Rami Issa  
 **Exam:** שע"ם – Software Developer Level 3  
@@ -62,7 +105,7 @@ Each task contains:
 
 ---
 
-## 🚧 Notes
+## Notes
 
 This README file will be **updated later** to include:
 - Setup and run instructions for both Client and Server
