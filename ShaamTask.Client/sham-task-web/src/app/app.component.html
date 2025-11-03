@@ -1,0 +1,35 @@
+<div class="container py-4" dir="rtl" lang="he">
+  <h1 class="mb-4">
+    <i class="bi bi-kanban-fill"></i> מנהל המשימות (שע״ם)
+  </h1>
+
+  <div class="row g-4">
+    <div class="col-12">
+      <button class="btn btn-primary mb-3 d-flex align-items-center" (click)="onAddRequest()">
+        <i class="bi bi-plus-circle me-2"></i>
+        <span class="flex-grow-1 text-end">הוספת משימה</span>
+      </button>
+    </div>
+
+    <div class="col-12">
+      <app-task-list (edit)="onEditRequest($event)"></app-task-list>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div #taskFormModal class="modal fade" tabindex="-1" aria-hidden="true">       
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-items-center justify-content-between">
+          <h5 class="modal-title mb-0">{{ selected ? 'עריכת משימה' : 'הוספת משימה' }}</h5>
+          <button type="button" class="btn btn-outline-secondary" (click)="onCancel()">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <app-task-form [editTask]="selected" (saved)="onSaved()" (cancelEdit)="onCancel()"></app-task-form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

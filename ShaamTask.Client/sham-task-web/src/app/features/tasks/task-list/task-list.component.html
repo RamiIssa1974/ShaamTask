@@ -1,0 +1,104 @@
+<div class="card shadow-sm" dir="rtl" lang="he">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5 class="card-title mb-0">משימות לביצוע</h5>
+      <button class="btn btn-outline-secondary btn-sm" (click)="load()">
+        <i class="bi bi-arrow-clockwise"></i> רענון
+      </button>
+    </div>
+
+    @if (loading) {
+    <div class="text-muted">טוען…</div>
+    }
+
+    @if (!loading && (!tasks || tasks.length === 0)) {
+    <div class="text-muted">אין משימות כרגע.</div>
+    }
+
+    @if (!loading && tasks && tasks.length) {
+    <!-- Table view (desktop) -->
+    <div class="table-responsive mobile-table-view">
+      <table class="table table-hover align-middle">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>כותרת</th>
+            <th>תיאור</th>
+            <th>עדיפות</th>
+            <th>סטטוס</th>
+            <th>תאריך יעד</th>
+            <th class="text-start">פעולות</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (t of tasks; track t.id) {
+          <tr>
+            <td>{{ t.id }}</td>
+            <td>{{ t.title }}</td>
+            <td class="description-cell">{{ t.description }}</td>
+            <td>
+              <span class="badge" [ngClass]="priorityClass(t.priority)">
+                {{ priorityText(t.priority) }}
+              </span>
+            </td>
+
+            <td>
+              <span class="badge" [ngClass]="statusClass(t.status)">
+                {{ statusText(t.status) }}
+              </span>
+            </td>
+
+            <td>{{ t.dueDate | date:'dd/MM/yyyy' }}</td>
+
+            <td class="text-start">
+              <button class="btn btn-sm btn-outline-primary ms-1" (click)="onEdit(t)" title="עריכה">
+                <i class="bi bi-pencil"></i>
+              </button>
+              <button class="btn btn-sm btn-outline-danger" (click)="onDelete(t.id)" title="מחיקה">
+                <i class="bi bi-trash"></i>
+              </button>
+            </td>
+          </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Card view (mobile) -->
+    <div class="mobile-card-view">
+      <div *ngFor="let t of tasks" class="mobile-card-item">
+        <div class="mobile-card-item">
+          <div class="row-data">
+            <strong class="task-title">{{ t.title }}</strong>
+            <span class="text-muted">#{{ t.id }}</span>
+          </div>
+          <div class="row-data task-description">
+            <p class="description-text">{{ t.description }}</p>
+          </div>
+          <div class="row-data">
+            <span class="small text-muted">עדיפות:</span>
+            <span class="badge bg-warning text-dark">{{ priorityText(t.priority) }}</span>
+          </div>
+          <div class="row-data">
+            <span class="small text-muted">סטטוס:</span>
+            <span class="badge bg-success text-white">{{ statusText(t.status) }}</span>
+          </div>
+
+          <div class="row-data">
+            <span class="task-due-date"><i class="bi bi-calendar3"></i> {{ t.dueDate | date:'dd/MM/yyyy' }}</span>
+          </div>
+          <div class="row-data actions">
+            <button class="btn btn-sm btn-outline-primary me-1" (click)="onEdit(t)">
+              <i class="bi bi-pencil"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-danger" (click)="onDelete(t.id)">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    }
+  </div>
+</div>

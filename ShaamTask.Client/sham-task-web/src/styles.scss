@@ -1,0 +1,65 @@
+@media (max-width: 576px) {
+    .mobile-card-view {
+        display: block;
+    }
+
+    .mobile-table-view {
+        display: none;
+    }
+
+    .mobile-card-item {
+        border: 1px solid #dee2e6;
+        border-radius: .375rem;
+        padding: .75rem;
+        margin-bottom: 1rem;
+    }
+
+    .mobile-card-item .row-data {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .5rem;
+    }
+
+    .mobile-card-item .row-data:last-child {
+        margin-bottom: 0;
+    }
+
+    .description-text {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .row-data .small.text-muted {
+        margin-inline-end: 0.5rem;
+    }
+
+    .badge {
+        font-size: 0.85rem;
+        padding: 0.35rem 0.6rem;
+    }
+}
+
+@media (min-width: 577px) {
+    .table-responsive .table td.description-cell {
+        max-width: 12rem;
+        /* או רוחב שמתאים לך */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .mobile-card-view {
+        display: none;
+        /* בדסקטופ – מסתיר את הכרטיסים */
+    }
+
+    .mobile-table-view {
+        display: block;
+        /* בדסקטופ – מציג טבלה */
+    }
+}
