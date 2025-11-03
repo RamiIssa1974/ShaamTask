@@ -1,0 +1,136 @@
+# ==============================
+# .gitignore for .NET + Angular project
+# ==============================
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# --- Visual Studio / .NET build outputs ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+
+# Publish output
+*.Publish.xml
+*.azurePubxml
+*.publishproj
+*.msi
+*.nupkg
+*.snupkg
+
+# .NET Core / SDK
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dotCover
+*.coverage
+*.coveragexml
+TestResult*/ 
+build/
+*.log
+
+# Rider, JetBrains
+.idea/
+*.sln.iml
+
+# --- Node / Angular --- 
+/node_modules/
+/dist/
+/out-tsc/
+/.angular/cache/
+/tmp/
+npm-debug.log*
+yarn-error.log*
+/coverage/
+
+# Angular CLI command output
+/angular.json
+/package-lock.json
+/yarn.lock
+
+# --- IDEs & Editors ---
+*.swp
+*~
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+*.lock
+*.tsbuildinfo
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider
+*.sln.iml
+/.idea/
+*.idea/*
+!/.idea/inspectionProfiles
+!/.idea/codeStyles
+
+# --- Logs and database ---
+*.log
+*.sql
+*.sqlite
+*.db
+
+/node_modules/
+
+# --- User-specific files ---
+*.rsuser
+*.resharper
+*_i.c
+*_p.c
+*.cache
+*.pidb
+*.pdb
+*.opendb
+*.suo
+*.userprefs
+
+# --- Miscellaneous ---
+.env*
+*.env
+.env.local
+.env.*.local
+/.sass-cache/
+/connect.lock
+/libpeerconnection.log
+/reports/
+/coverage/
+/test-results/
+/.terraform/
+
+# --- Others important for web apps ---
+/wwwroot/lib/
+wwwroot/package-lock.json
+
+# --- Ignore published output folders if exist ---
+/bin/
+/obj/
+/publish/
+/artifacts/
+
+# --- Git submodule folders (optional) ---
+.gitmodules
+submodule/
+
