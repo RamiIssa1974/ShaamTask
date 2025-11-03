@@ -1,3 +1,10 @@
+
+/ShaamTask.Client/node_modules/
+
+/ShaamTask.Client/sham-task-web/node_modules/
+/ShaamTask.Client/sham-task-web/.angular/
+/ShaamTask.Client/sham-task-web/dist/
+
 # ==============================
 # .gitignore for .NET + Angular project
 # ==============================
