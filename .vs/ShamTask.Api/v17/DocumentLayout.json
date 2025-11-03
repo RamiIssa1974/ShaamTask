@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|c:\\personal\\rami\\resumes\\worksearch\\shaam\\shaamtask\\shamtask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|solutionrelative:shamtask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|c:\\personal\\rami\\resumes\\worksearch\\shaam\\shaamtask\\shamtask.api\\shamtask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|solutionrelative:shamtask.api\\shamtask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|c:\\personal\\rami\\resumes\\worksearch\\shaam\\shaamtask\\shamtask.api\\infrastructure\\jsontaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|solutionrelative:shamtask.api\\infrastructure\\jsontaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|c:\\personal\\rami\\resumes\\worksearch\\shaam\\shaamtask\\shamtask.api\\data\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|solutionrelative:shamtask.api\\data\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|c:\\personal\\rami\\resumes\\worksearch\\shaam\\shaamtask\\shamtask.api\\contracts\\taskdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|solutionrelative:shamtask.api\\contracts\\taskdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|c:\\personal\\rami\\resumes\\worksearch\\shaam\\shaamtask\\shamtask.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF62288-FA2D-00CE-4815-183C54420454}|ShamTask.Api\\ShamTask.Api.csproj|solutionrelative:shamtask.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 679,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135924954:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:234920726:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1972725675:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1868876116:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1290642038:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1161753914:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShamTask.Api",
+              "DocumentMoniker": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\ShamTask.Api.csproj",
+              "RelativeDocumentMoniker": "ShamTask.Api\\ShamTask.Api.csproj",
+              "ToolTip": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\ShamTask.Api.csproj",
+              "RelativeToolTip": "ShamTask.Api\\ShamTask.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T12:57:48.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "ShamTask.Api\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "ShamTask.Api\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:31:54.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskDtos.cs",
+              "DocumentMoniker": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Contracts\\TaskDtos.cs",
+              "RelativeDocumentMoniker": "ShamTask.Api\\Contracts\\TaskDtos.cs",
+              "ToolTip": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Contracts\\TaskDtos.cs",
+              "RelativeToolTip": "ShamTask.Api\\Contracts\\TaskDtos.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:26:53.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ShamTask.Api\\Program.cs",
+              "ToolTip": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Program.cs",
+              "RelativeToolTip": "ShamTask.Api\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:21:36.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonTaskRepository.cs",
+              "DocumentMoniker": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Infrastructure\\JsonTaskRepository.cs",
+              "RelativeDocumentMoniker": "ShamTask.Api\\Infrastructure\\JsonTaskRepository.cs",
+              "ToolTip": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Infrastructure\\JsonTaskRepository.cs",
+              "RelativeToolTip": "ShamTask.Api\\Infrastructure\\JsonTaskRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAIAywDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:18:11.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tasks.json",
+              "DocumentMoniker": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Data\\tasks.json",
+              "RelativeDocumentMoniker": "ShamTask.Api\\Data\\tasks.json",
+              "ToolTip": "C:\\Personal\\Rami\\Resumes\\WorkSearch\\Shaam\\ShaamTask\\ShamTask.Api\\Data\\tasks.json",
+              "RelativeToolTip": "ShamTask.Api\\Data\\tasks.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T12:12:20.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 184,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2100501758:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

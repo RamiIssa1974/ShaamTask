@@ -1,0 +1,13 @@
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\ShamTask.Api.exe
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\Data\tasks.json
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\ShamTask.Api.dll
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\ShamTask.Api.deps.json
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\ShamTask.Api.runtimeconfig.json
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\ShamTask.Api.pdb
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Personal\Rami\Resumes\WorkSearch\Shaam\ShaamTask\ShamTask.Api\obj\Release\net9.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
