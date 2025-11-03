@@ -46,8 +46,7 @@ builder.Services.AddCors(options =>
                 catch { return false; }
             })
             .AllowAnyHeader()
-            .AllowAnyMethod();
-        // הימנע מ-AllowCredentials אלא אם באמת חייבים cookies cross-origin
+            .AllowAnyMethod();        
     });
 });
 
